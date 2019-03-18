@@ -17,6 +17,16 @@
       </SOURCES>
       <jarDirectory url="file:///f/libs/connectorj" recursive="false" />
     </library>
+    <library name="javax.servlet:javax.servlet-api:4.0.1" type="repository">
+      <properties maven-id="javax.servlet:javax.servlet-api:4.0.1" />
+      <CLASSES>
+        <root url="jar:///f/libs/javax.servlet-api-4.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar:///f/libs/javax.servlet-api-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="jsoup">
       <CLASSES>
         <root url="file:///f/libs/jsoup" />
