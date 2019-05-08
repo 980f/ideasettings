@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Console.TableResult.ColumnsList" />
+  <action id="FileStructurePopup" />
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
+  <action id="UML.ShowStructure" />
+</keymap>

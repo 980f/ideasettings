@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="fu">
+      <action id="FindNext" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorToggleCase" />
+    </macro>
+  </component>
+</application>
