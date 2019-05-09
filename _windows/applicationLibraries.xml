@@ -1,5 +1,17 @@
 <application>
   <component name="libraryTable">
+    <library name="53e3a0e6fe" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_use.fontawesome.com_53e3a0e6fe.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_use.fontawesome.com_53e3a0e6fe.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="jquery" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
@@ -13,38 +25,23 @@
       <DOCUMENTATION>
         <root url="http://api.jquery.com" />
       </DOCUMENTATION>
-      <SOURCES />
-    </library>
-    <library name="jquery-1.10.2" type="javaScript">
-      <properties>
-        <option name="frameworkName" value="jQuery" />
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.jquery.com_jquery-1.10.2.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.jquery.com_jquery-1.10.2.js" />
-      </CLASSES>
-      <DOCUMENTATION>
-        <root url="http://api.jquery.com" />
-      </DOCUMENTATION>
+      <JAVADOC />
       <SOURCES />
     </library>
     <library name="jquery-ui" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
         <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.jquery.com_ui_1.11.4_jquery-ui.js" />
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jqueryui_1.10.3_jquery-ui.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.jquery.com_ui_1.11.4_jquery-ui.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jqueryui_1.10.3_jquery-ui.js" />
       </CLASSES>
       <DOCUMENTATION>
         <root url="http://api.jquery.com" />
       </DOCUMENTATION>
+      <JAVADOC />
       <SOURCES />
     </library>
   </component>
