@@ -1,1 +1,6 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="320" />
+  <codeStyleSettings language="PHP">
+    <option name="INDENT_CASE_FROM_SWITCH" value="false" />
+  </codeStyleSettings>
+</code_scheme>
