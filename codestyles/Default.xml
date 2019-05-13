@@ -1,7 +1,9 @@
 <code_scheme name="Default" version="173">
   <codeStyleSettings language="PHP">
+    <option name="RIGHT_MARGIN" value="320" />
     <option name="CLASS_BRACE_STYLE" value="1" />
     <option name="METHOD_BRACE_STYLE" value="1" />
+    <option name="INDENT_CASE_FROM_SWITCH" value="false" />
     <option name="IF_BRACE_FORCE" value="3" />
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
