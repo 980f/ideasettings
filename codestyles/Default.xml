@@ -1,4 +1,5 @@
 <code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="320" />
   <codeStyleSettings language="PHP">
     <option name="RIGHT_MARGIN" value="320" />
     <option name="CLASS_BRACE_STYLE" value="1" />
@@ -8,8 +9,5 @@
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
     <option name="FOR_BRACE_FORCE" value="3" />
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
