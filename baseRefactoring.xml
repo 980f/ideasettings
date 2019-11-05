@@ -4,6 +4,7 @@
     <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
   </component>
   <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_METHOD" value="true" />
     <option name="MOVE_PREVIEW_USAGES" value="false" />
     <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
