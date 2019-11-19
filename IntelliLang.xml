@@ -1,0 +1,227 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="HQL" injector-id="java">
+      <display-name>HibernateOperations (org.springframework.orm.hibernate)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").definedInClass("org.springframework.orm.hibernate.HibernateOperations"))]]></place>
+    </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>HibernateOperations (org.springframework.orm.hibernate3)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("bulkUpdate").definedInClass("org.springframework.orm.hibernate3.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").definedInClass("org.springframework.orm.hibernate3.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByNamedParam").definedInClass("org.springframework.orm.hibernate3.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByValueBean").withParameters("java.lang.String", "java.lang.Object").definedInClass("org.springframework.orm.hibernate3.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("iterate").definedInClass("org.springframework.orm.hibernate3.HibernateOperations"))]]></place>
+    </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>HibernateOperations (org.springframework.orm.hibernate4)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("bulkUpdate").definedInClass("org.springframework.orm.hibernate4.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").definedInClass("org.springframework.orm.hibernate4.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByNamedParam").definedInClass("org.springframework.orm.hibernate4.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByValueBean").definedInClass("org.springframework.orm.hibernate4.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("iterate").definedInClass("org.springframework.orm.hibernate4.HibernateOperations"))]]></place>
+    </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>HibernateOperations (org.springframework.orm.hibernate5)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("bulkUpdate").definedInClass("org.springframework.orm.hibernate5.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").definedInClass("org.springframework.orm.hibernate5.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByNamedParam").definedInClass("org.springframework.orm.hibernate5.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByValueBean").definedInClass("org.springframework.orm.hibernate5.HibernateOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("iterate").definedInClass("org.springframework.orm.hibernate5.HibernateOperations"))]]></place>
+    </injection>
+    <injection language="JPAQL" injector-id="java">
+      <display-name>JpaOperations (org.springframework.orm.jpa)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").definedInClass("org.springframework.orm.jpa.JpaOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByNamedParams").definedInClass("org.springframework.orm.jpa.JpaOperations"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>NamedNativeQuery.query (javax.persistence)</display-name>
+      <place disabled="true"><![CDATA[psiMethod().withName("query").withParameters().definedInClass("javax.persistence.NamedNativeQuery")]]></place>
+    </injection>
+    <injection language="JPAQL" injector-id="java">
+      <display-name>NamedQuery.query (javax.persistence)</display-name>
+      <place disabled="true"><![CDATA[psiMethod().withName("query").withParameters().definedInClass("javax.persistence.NamedQuery")]]></place>
+    </injection>
+    <injection language="XPath" injector-id="java">
+      <display-name>Node.createXPath (org.dom4j)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createXPath").withParameters("java.lang.String").definedInClass("org.dom4j.Node"))]]></place>
+    </injection>
+    <injection language="XPath" injector-id="java">
+      <display-name>Node.selectNodes (org.dom4j)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("selectNodes").withParameters("java.lang.String").definedInClass("org.dom4j.Node"))]]></place>
+    </injection>
+    <injection language="XPath" injector-id="java">
+      <display-name>Node.selectSingleNode (org.dom4j)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("selectSingleNode").withParameters("java.lang.String").definedInClass("org.dom4j.Node"))]]></place>
+    </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>Session.createQuery (org.hibernate)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.Session"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring @Cacheable and @CacheEvict</display-name>
+      <place disabled="true"><![CDATA[psiMethod().withName("condition").withParameters().definedInClass("org.springframework.cache.annotation.CacheEvict")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("condition").withParameters().definedInClass("org.springframework.cache.annotation.CachePut")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("condition").withParameters().definedInClass("org.springframework.cache.annotation.Cacheable")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("key").withParameters().definedInClass("org.springframework.cache.annotation.CacheEvict")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("key").withParameters().definedInClass("org.springframework.cache.annotation.CachePut")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("key").withParameters().definedInClass("org.springframework.cache.annotation.Cacheable")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("unless").withParameters().definedInClass("org.springframework.cache.annotation.CachePut")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("unless").withParameters().definedInClass("org.springframework.cache.annotation.Cacheable")]]></place>
+    </injection>
+    <injection language="spring-resource-reference" injector-id="java">
+      <display-name>Spring Boot (org.springframework.boot.SpringApplication)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("run").withParameters("java.lang.Object", "java.lang.String...").definedInClass("org.springframework.boot.SpringApplication"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("run").withParameters("java.lang.Object[]", "java.lang.String[]").definedInClass("org.springframework.boot.SpringApplication"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring Integration/Messaging</display-name>
+      <place disabled="true"><![CDATA[psiMethod().withName("expression").withParameters().definedInClass("org.springframework.messaging.handler.annotation.Payload")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.integration.annotation.Payload")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.messaging.handler.annotation.Payload")]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.BatchUpdateUtils)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeBatchUpdate").withParameters("java.lang.String", "java.util.List", "int[]", "org.springframework.jdbc.core.JdbcOperations").definedInClass("org.springframework.jdbc.core.BatchUpdateUtils"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.JdbcOperations)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batchUpdate").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForInt").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForList").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForLong").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForMap").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForObject").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForRowSet").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.PreparedStatementCreatorFactory)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String", "int[]").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String", "java.util.List").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batchUpdate").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForInt").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForList").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForLong").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForMap").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForObject").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForRowSet").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.simple.SimpleJdbcOperations)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batchUpdate").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForInt").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForList").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForLong").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForMap").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForObject").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").definedInClass("org.springframework.jdbc.core.simple.SimpleJdbcOperations"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.BatchSqlUpdate)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("BatchSqlUpdate").definedInClass("org.springframework.jdbc.object.BatchSqlUpdate"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.MappingSqlQuery.MappingSqlQuery)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("MappingSqlQuery").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.MappingSqlQuery"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.MappingSqlQueryWithParameters.MappingSqlQueryWithParameters)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("MappingSqlQueryWithParameters").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.MappingSqlQueryWithParameters"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.RdbmsOperation.setSql)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setSql").withParameters("java.lang.String").definedInClass("org.springframework.jdbc.object.RdbmsOperation"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.SqlCall)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlCall").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.SqlCall"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.SqlFunction)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlFunction").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.SqlFunction"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlFunction").withParameters("javax.sql.DataSource", "java.lang.String", "int[]").definedInClass("org.springframework.jdbc.object.SqlFunction"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlFunction").withParameters("javax.sql.DataSource", "java.lang.String", "int[]", "java.lang.Class").definedInClass("org.springframework.jdbc.object.SqlFunction"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.SqlOperation.newPreparedStatementCreator)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("newPreparedStatementCreator").withParameters("java.lang.String", "java.lang.Object[]").definedInClass("org.springframework.jdbc.object.SqlOperation"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.SqlQuery)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("org.springframework.jdbc.object.SqlQuery"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String", "java.util.Map").definedInClass("org.springframework.jdbc.object.SqlQuery"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlQuery").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.SqlQuery"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.SqlUpdate)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlUpdate").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.SqlUpdate"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlUpdate").withParameters("javax.sql.DataSource", "java.lang.String", "int[]").definedInClass("org.springframework.jdbc.object.SqlUpdate"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("SqlUpdate").withParameters("javax.sql.DataSource", "java.lang.String", "int[]", "int").definedInClass("org.springframework.jdbc.object.SqlUpdate"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.object.UpdatableSqlQuery.UpdatableSqlQuery)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("UpdatableSqlQuery").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("org.springframework.jdbc.object.UpdatableSqlQuery"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createCustomException").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException", "java.lang.Class").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("customTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("logTranslation").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException", "boolean").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.support.SQLExceptionSubclassTranslator)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLExceptionSubclassTranslator"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.support.SQLExceptionTranslator)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("translate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLExceptionTranslator"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.support.SQLStateSQLExceptionTranslator)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLStateSQLExceptionTranslator"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring Security @PostAuthorize/@PostFilter/@PreAuthorize/@PreFilter</display-name>
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PostAuthorize")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PostFilter")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PreAuthorize")]]></place>
+      <place disabled="true"><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PreFilter")]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring Security ExpressionInterceptUrlRegistry</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("access").withParameters("java.lang.String").definedInClass("org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.AuthorizedUrl"))]]></place>
+    </injection>
+    <injection language="XPath" injector-id="java">
+      <display-name>XPath (javax.xml.xpath)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("compile").withParameters("java.lang.String").definedInClass("javax.xml.xpath.XPath"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("evaluate").withParameters("java.lang.String", "java.lang.Object").definedInClass("javax.xml.xpath.XPath"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("evaluate").withParameters("java.lang.String", "java.lang.Object", "javax.xml.namespace.QName").definedInClass("javax.xml.xpath.XPath"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("evaluate").withParameters("java.lang.String", "org.xml.sax.InputSource").definedInClass("javax.xml.xpath.XPath"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("evaluate").withParameters("java.lang.String", "org.xml.sax.InputSource", "javax.xml.namespace.QName").definedInClass("javax.xml.xpath.XPath"))]]></place>
+    </injection>
+    <injection language="XPath" injector-id="java">
+      <display-name>XPath (org.jdom.xpath)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("newInstance").withParameters("java.lang.String").definedInClass("org.jdom.xpath.XPath"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("selectNodes").withParameters("java.lang.Object", "java.lang.String").definedInClass("org.jdom.xpath.XPath"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("selectSingleNode").withParameters("java.lang.Object", "java.lang.String").definedInClass("org.jdom.xpath.XPath"))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="java">
+      <display-name>setStyle(javafx.css)</display-name>
+      <prefix>javafx_dummy_selector {</prefix>
+      <suffix>}</suffix>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setStyle").definedInClass("javafx.scene.Node"))]]></place>
+    </injection>
+  </component>
+</application>
