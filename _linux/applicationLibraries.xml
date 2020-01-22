@@ -38,5 +38,12 @@
       <jarDirectory url="file:///f/libs/jsoup" recursive="false" />
       <jarDirectory url="file:///f/libs/jsoup" recursive="false" type="SOURCES" />
     </library>
+    <library name="postgresql-42.2.9">
+      <CLASSES>
+        <root url="jar:///f/libs/postgresql-42.2.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </application>
