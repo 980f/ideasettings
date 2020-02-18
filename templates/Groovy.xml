@@ -14,7 +14,7 @@
     <context />
   </template>
   <template name="soutp" value="println &quot;$FORMAT$&quot;" description="Prints method parameter names and values to System.out" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="FORMAT" expression="groovyScript(&quot;_1.collect { it + ' = [$' + it + ']'}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="FORMAT" expression="groovyScript(&quot;_1.collect { it + ' = $' + it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
   <template name="soutv" value="println &quot;$EXPR_COPY$ = $DOLLAR$$EXPR$&quot;" description="Prints a value to System.out" toReformat="true" toShortenFQNames="true" deactivated="true">
