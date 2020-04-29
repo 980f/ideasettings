@@ -2,7 +2,6 @@
   <component name="UISettings">
     <option name="ANIMATE_WINDOWS" value="false" />
     <option name="DND_WITH_PRESSED_ALT_ONLY" value="true" />
-    <option name="SHOW_MEMORY_INDICATOR" value="true" />
     <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
   </component>
 </application>
