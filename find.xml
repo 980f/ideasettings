@@ -2,8 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localCaseSensitive" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.php" />
     <mask>*.properties</mask>
@@ -13,9 +13,9 @@
     <mask>*.js</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>*.php,*.js</mask>
     <mask>*.css</mask>
     <mask>*.css,*js,*php</mask>
+    <mask>*.php,*.js</mask>
     <mask>*.java</mask>
     <mask>*.php</mask>
   </component>
