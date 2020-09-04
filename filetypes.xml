@@ -1,9 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="dml" type="PLAIN_TEXT" />
-      <mapping ext="suo" type="PLAIN_TEXT" />
-      <mapping ext="xlsm" type="PLAIN_TEXT" />
+      <mapping ext="obj" type="Native" />
+      <mapping ext="pde" type="ObjectiveC" />
     </extensionMap>
   </component>
 </application>
