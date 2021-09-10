@@ -1,22 +1,20 @@
 <application>
-  <component name="DebuggerSettings">
-    <option name="FORCE_CLASSIC_VM" value="false" />
-    <option name="SKIP_GETTERS" value="true" />
-    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
-    <option name="WATCH_RETURN_VALUES" value="true" />
-  </component>
   <component name="XDebuggerSettings">
-    <data-views />
-    <general />
+    <data-views>
+      <sort-values>true</sort-values>
+    </data-views>
+    <general>
+      <unmute-on-stop>true</unmute-on-stop>
+    </general>
     <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <option name="HEX_FORMATTING_ENABLED" value="true" />
+        </configuration>
+      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
-        </configuration>
-      </debugger>
-      <debugger id="kotlin_debugger">
-        <configuration>
-          <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
         </configuration>
       </debugger>
     </debuggers>
