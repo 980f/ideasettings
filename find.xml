@@ -35,8 +35,8 @@
     <mask>*.h++</mask>
     <mask>*.cc</mask>
     <mask>*.c</mask>
-    <mask>*.cpp</mask>
     <mask>*.h</mask>
+    <mask>*.cpp</mask>
     <mask>*.h,*.cpp</mask>
   </component>
 </application>
