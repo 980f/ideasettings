@@ -10,6 +10,7 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.h,*.cpp" />
+    <mask>*.pde</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -24,7 +25,6 @@
     <mask>*.ipp</mask>
     <mask>*.m</mask>
     <mask>*.inl</mask>
-    <mask>*.pde</mask>
     <mask>*.cp</mask>
     <mask>*.icc</mask>
     <mask>*.c++</mask>
