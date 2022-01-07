@@ -1,36 +1,44 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.h,*.cpp" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
-    <mask>*.cp</mask>
-    <mask>*.inl</mask>
-    <mask>*.ino</mask>
-    <mask>*.cuh</mask>
-    <mask>*.pch</mask>
-    <mask>*.c++</mask>
-    <mask>*.icc</mask>
-    <mask>*.pde</mask>
-    <mask>*.ipp</mask>
-    <mask>*.h++</mask>
-    <mask>*.c</mask>
-    <mask>*.i</mask>
-    <mask>*.m</mask>
-    <mask>*.cxx</mask>
-    <mask>*.hh</mask>
-    <mask>*.hp</mask>
-    <mask>*.hxx</mask>
-    <mask>*.hpp</mask>
-    <mask>*.tcc</mask>
-    <mask>*.mm</mask>
-    <mask>*.tpp</mask>
-    <mask>*.ii</mask>
     <mask>*.cu</mask>
-    <mask>*.cc</mask>
-    <mask>*.cpp</mask>
+    <mask>*.cxx</mask>
+    <mask>*.hp</mask>
+    <mask>*.i</mask>
+    <mask>*.hh</mask>
+    <mask>*.hxx</mask>
+    <mask>*.cuh</mask>
+    <mask>*.ii</mask>
+    <mask>*.ipp</mask>
+    <mask>*.m</mask>
+    <mask>*.inl</mask>
+    <mask>*.pde</mask>
+    <mask>*.cp</mask>
+    <mask>*.icc</mask>
+    <mask>*.c++</mask>
+    <mask>*.ino</mask>
+    <mask>*.tcc</mask>
+    <mask>*.tpp</mask>
+    <mask>*.mm</mask>
+    <mask>*.pch</mask>
+    <mask>*.hpp</mask>
     <mask>*.h</mask>
+    <mask>*.h++</mask>
+    <mask>*.cc</mask>
+    <mask>*.c</mask>
+    <mask>*.cpp</mask>
+    <mask>*.h,*.cpp</mask>
   </component>
 </application>

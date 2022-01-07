@@ -1,0 +1,8 @@
+<application>
+  <component name="CPPToolchains" version="6">
+    <toolchains detectedVersion="5">
+      <toolchain name="Default" toolSetKind="SYSTEM_UNIX_TOOLSET" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="BareMetal" toolSetKind="SYSTEM_UNIX_TOOLSET" customCCompilerPath="/d/bin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc" customCXXCompilerPath="/d/bin/gcc-arm-none-eabi/bin/arm-none-eabi-g++" debuggerKind="CUSTOM_GDB" customGDBPath="/d/bin/gcc-arm-none-eabi/bin/arm-none-eabi-gdb" />
+    </toolchains>
+  </component>
+</application>
