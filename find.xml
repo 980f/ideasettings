@@ -5,7 +5,12 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.cpp,*.h" />
+    <mask>*.java</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.cu</mask>
     <mask>*.cxx</mask>
     <mask>*.hp</mask>
     <mask>*.i</mask>
@@ -30,11 +35,6 @@
     <mask>*.cc</mask>
     <mask>*.c</mask>
     <mask>*.cpp</mask>
-    <mask>*.css</mask>
-    <mask>*.html</mask>
-    <mask>*.xml</mask>
-    <mask>*.jsp</mask>
-    <mask>*.properties</mask>
-    <mask>*.java</mask>
+    <mask>*.cpp,*.h</mask>
   </component>
 </application>
